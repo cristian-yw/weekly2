@@ -1,16 +1,16 @@
 function divideAndSort(number){
-    const divide = number.toString().split('0')
+    const divide = number.toString().split("0");
 
     const sortpart = divide.map(divide => {
         return divide
-        .split('')
-        .sort((a,b)=> a - b)
-        .join('')
+            .split("")
+            .sort((a,b)=> a - b)
+            .join("");
 
-    })
-    const result = sortpart.join('')
+    });
+    const result = sortpart.join("");
     
-    return Number(result)
+    return Number(result);
 }
 
-export default divideAndSort
+export default divideAndSort;
