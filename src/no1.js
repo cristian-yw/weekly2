@@ -1,13 +1,13 @@
 const fetchData = (status) => {
     return new Promise((resolve, reject)=>{
-    if(status){
-        setTimeout(()=>{
-        resolve("Data berhasil disimpan")
-},3000)
-}else{
-    reject("Gagal mengambil data")
-}
-})
-}
+        if(status){
+            setTimeout(()=>{
+                resolve("Data berhasil disimpan");
+            },3000);
+        }else{
+            reject("Gagal mengambil data");
+        }
+    });
+};
 
-export default fetchData
+export default fetchData;
