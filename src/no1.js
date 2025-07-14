@@ -9,7 +9,7 @@ const fetchData = (status) => {
         }
     });
 };
-// // 1. Promise:
+//  1. Promise:
 //    - Promise adalah objek di JavaScript yang merepresentasikan operasi asynchronous.
 //    - Promise memiliki 3 keadaan: pending, fulfilled (berhasil), dan rejected (gagal).
 //    
